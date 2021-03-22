@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("img/quadroNegro.jpg");
+   
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color:rgb(72, 70, 70);
+    font-family: serif;
+    
+    
+
+}
+table#tabuleiro{
+    
+    margin: 10px auto 10px auto;
+    border-collapse:collapse;
+    width: 450px;
+    height: 450px;
+
+}
+td{
+    
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    color: rgba(255, 255, 255, 0.945);
+    text-shadow: 1px 1px 2px rgba(204, 204, 204, 0.685);
+    font-size: 37px;
+    padding: 4px;
+    font-weight: bold;
+   
+    text-align: center;
+    
+}
+h1{ 
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ li{
+    display: inline;
+    padding: 5px;
+    font-size: 23px;
+}
+#resposta{
+    margin: auto;
+    border-collapse:collapse;
+    
+}
+#resposta td{
+    border: 0px;
+    padding: 5px;
+    width: 140px;
+    font-size: 25px;
+        
+}
+button {
+    width: 50px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    padding: 5px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.219);
+    
+}
+#botao{ text-align: center;
+    width: 50px;
+    margin: 5px auto 0px auto;
+    padding: 5px;
+    color: white;
+    border: 2px solid white;
+}
