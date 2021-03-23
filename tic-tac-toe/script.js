@@ -143,9 +143,9 @@ function Logica(a){
 
 
 function Risco(a, b, c){
-    document.getElementById(`t${a}`).style.backgroundColor = 'rgba(209, 49, 97, 0.514)';
-    document.getElementById(`t${b}`).style.backgroundColor = 'rgba(209, 49, 97, 0.514)';
-    document.getElementById(`t${c}`).style.backgroundColor = 'rgba(209, 49, 97, 0.514)';
+    document.getElementById(`t${a}`).style.backgroundColor = '#7f7f7fa9';
+    document.getElementById(`t${b}`).style.backgroundColor = '#7f7f7fa9';
+    document.getElementById(`t${c}`).style.backgroundColor = '#7f7f7fa9';
    
 
 }

@@ -13,25 +13,25 @@
         <table id="tabuleiro">
             <tr  >
             <td id="t0" onclick="jogada(this.id)"></td>
-            <td id="t1" onclick="jogada(this.id)"></td>
+            <td class="vert" id="t1" onclick="jogada(this.id)"></td>
             <td id="t2" onclick="jogada(this.id)"></td>
             </tr>
             
             <tr >
-                <td id="t3" onclick="jogada(this.id)" > </td>
-                <td id="t4" onclick="jogada(this.id)"></td>
-                <td id="t5" onclick="jogada(this.id)"></td>
+                <td class="hori"  id="t3" onclick="jogada(this.id)" > </td>
+                <td class="vert hori" id="t4" onclick="jogada(this.id)"></td>
+                <td class="hori" id="t5" onclick="jogada(this.id)"></td>
             </tr>
             
             <tr >
                 <td id="t6" onclick="jogada(this.id)"></td>
-                <td id="t7" onclick="jogada(this.id)"></td>
-                <td id="t8" onclick="jogada(this.id)"></td>
+                <td class="vert" id="t7" onclick="jogada(this.id)"></td>
+                <td  id="t8" onclick="jogada(this.id)"></td>
            </tr>
             
         </table>
     </div><div >
-        <table id="resposta" > 
+        <table class="resposta" > 
         <tr >
             <td id="PlayerX">Player X <br>(0)</td>
             <td id="Dplayer">Draw <br>(0)</td>
